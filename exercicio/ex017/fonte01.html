@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            medidas absolutas
+            cm, mm, in, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw,vh, %
+            16px é igual a = 1 em
+            */
+            font-size: 16px;
+            /* lighter font normal bold bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2 {
+            font: bold 2m 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur nobis accusantium. Id itaque ipsa vel provident recusandae eos expedita mollitia tempora quaerat, facere, laboriosam nobis odit ex animi nisi?
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat sunt ipsa consectetur, eligendi, modi beatae similique provident mollitia ab, hic saepe ad fuga rerum accusantium facere quidem adipisci quibusdam. Commodi.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, vel perferendis, reiciendis illo quibusdam necessitatibus magnam cumque labore nemo repudiandae ad exercitationem alias assumenda nobis ex earum nostrum praesentium tenetur.</p>
+    <h2>subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam officiis similique vitae, excepturi numquam aliquid facilis et expedita cumque incidunt porro, tempore tenetur laboriosam molestiae eum pariatur? Consequatur, recusandae eius?</p>
+</body>
+</html>
