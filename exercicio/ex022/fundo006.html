@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             border-radius: cover ;
+            background-attachment: fixed ;*/
+
+            /* Shorthand - Backgroud
+                 color > image > position > repeat > [ size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
+                 
         }
 
         main {
             background-color: white;
-            width: 350px;
+            max-width: 300px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +39,12 @@
         <h1>teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ex eum natus dicta atque. Nostrum consequatur aperiam tempore adipisci, suscipit earum quo. Repudiandae officia laudantium nesciunt quo libero vero. Laudantium!Lorem
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem cum at beatae odio illo ipsa libero delectus consequatur minima! Mollitia, quas similique. Non esse dolorem labore reprehenderit, maiores officia.</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis officiis nihil beatae repellat blanditiis omnis cupiditate fugiat ab? Officia quo hic nihil odio beatae animi debitis quod possimus itaque.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam dolorem explicabo, voluptates sint quod a incidunt officia commodi nobis ipsam voluptatibus fugiat consequuntur, aspernatur illum! Ratione sequi corporis repellendus quis!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates provident officia ratione quibusdam impedit eligendi! Explicabo, ullam. Officia totam ipsa maiores inventore voluptate, recusandae esse, cum earum deserunt consectetur doloribus.
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae autem delectus, praesentium, ratione voluptates numquam tempore consequatur, laboriosam possimus at quisquam adipisci quis sit non? Similique non numquam officia inventore.
+        </p>
     </main>
 </body>
 </html>
